@@ -1,3 +1,4 @@
+//use Set O(n)
 var containsDuplicate = function(nums) {
     numsSet = new Set(nums);
     if (numsSet.size < nums.length) {
@@ -7,3 +8,7 @@ var containsDuplicate = function(nums) {
     }    
 };
 
+// use hashmap
+const containsDuplicate = (nums) => {
+    f
+}
